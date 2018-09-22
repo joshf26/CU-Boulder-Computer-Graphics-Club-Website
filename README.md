@@ -1,1 +1,1 @@
-# CU-Computer-Graphics-Club-Website
+### CU-Computer-Graphics-Club-Website

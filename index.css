@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'arcadeclassicregular';
+    src: url('arcadeclassic-webfont.woff2') format('woff2'),
+         url('arcadeclassic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'arcadeclassicregular';
+}
+
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-color: black;
+    pointer-events: none;
+}
+
+h1 {
+    color: #c8b682;
+}
+
+img {
+    margin-top: 25px;
+}
+
+a {
+    pointer-events: all;
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    pointer-events: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    border: 10px solid white;
+    box-shadow: 5px 5px grey;
+    margin: 25px 0;
+    padding: 0 25px;
+    color: white;
+}
+
+.subtle-link {
+    text-decoration: none;
+}
+
+#particles {
+    pointer-events: all;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
