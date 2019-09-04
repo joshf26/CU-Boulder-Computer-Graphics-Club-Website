@@ -6,10 +6,6 @@
     font-style: normal;
 }
 
-* {
-    font-family: 'arcadeclassicregular';
-}
-
 html, body {
     margin: 0 !important;
     padding: 0 !important;
@@ -24,6 +20,11 @@ h1 {
     color: #c8b682;
 }
 
+h1, h2 {
+    font-family: 'arcadeclassicregular';
+    letter-spacing: 2px;
+}
+
 img {
     margin-top: 25px;
 }
@@ -36,7 +37,8 @@ a {
 .center {
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
+    /*max-width: 500px;*/
+    max-width: 700px;
     pointer-events: none;
 }
 
@@ -49,7 +51,7 @@ a {
     border: 10px solid white;
     box-shadow: 5px 5px grey;
     margin: 25px 0;
-    padding: 0 25px;
+    padding: 5px 25px;
     color: white;
 }
 
